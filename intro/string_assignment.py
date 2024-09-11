@@ -1,9 +1,9 @@
 first_name= 'Kamso'
-last_name= 'Obi'
+last_name= ' Obi '
 age= '29 years'
 hobby = "playing drums"
 
-FullName=first_name + last_name
+FullName=first_name + last_name + 'it ' + 'is ' + 'time ' + 'for ' + hobby
 
 print("Hello,", FullName)
 
@@ -19,4 +19,9 @@ and my favorite hobby is {hobby}
 
 print(hobby_message)
 
-personal_info= first_name + last_name
+personal_info='Hello ' + first_name + last_name +',' ;personal_info1=f"""
+I heard you that you are {age} old!! how true is that?, also
+do you like {hobby}?
+"""
+
+print(personal_info, personal_info1)
