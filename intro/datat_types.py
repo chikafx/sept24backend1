@@ -151,9 +151,8 @@ test_2 =[30303, 21321]
 
 
 nested['address']['code'].extend(test_2)
-# print(nested['church']['type']['address']['code'])
+nested['church']['type']['address']['code'].extend(test_1)
 # nested['age']['status']['address']['code'].extend(test_1)
 # print(nested['age']['status']['address']['code'])
 
 print(nested)
-
